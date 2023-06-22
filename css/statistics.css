@@ -1,0 +1,179 @@
+.main{
+    max-width: 1220px;
+    margin: 0 auto;
+}
+.statistics-sub{
+    margin-top: 25px;
+}
+.statistics-subtitle {
+    font-weight: bold;
+    font-size: 60px;
+	text-transform: uppercase;
+    background: linear-gradient(#D784CF, #24C4E9);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.history-title-h2 {
+    font-family: 'Tinos', serif;
+    font-size: 40px;
+    font-weight: bold;
+    width: 444px;
+    text-align: center;
+    margin-top: 21px;
+    margin-bottom: 50px;
+    background: linear-gradient(#24C4E9, #E40ECF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.history-info{
+    margin-left: 500px;
+    margin-top: -350px;
+    color: #FFF;
+    font-size: 40px;
+    font-family: Inter;
+    font-style: italic;
+    font-weight: 200;
+}
+.history-img{
+    width: 436px;
+    position: absolute;
+    z-index: 1;
+    margin-left: -570px;
+    margin-top: -71px;
+}
+.section_statistics_girodigram {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	width: 50%;
+}
+
+.statistics-diagram {
+	display: flex;
+	/* justify-content: space-around;
+	align-items: center; */
+	width: 100%;
+    margin-top: -300px;
+    
+}
+
+.skillBLock {
+	height: 380px;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	flex-direction: column;
+    margin-right: 25px;
+    z-index: 10;
+}
+
+.column {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 50px;
+}
+
+.skillBLock:first-child .column {
+	background: linear-gradient(#24C4E9, #24C4E9, #E40ECF);
+	height: calc(330px / 100 * 85); /*85%*/
+	animation: appFir 2s 1;
+}
+
+.skillBLock:nth-child(2) .column {
+	background: linear-gradient(#E40ECF,#24C4E9, #24C4E9);
+	height: calc(334px / 100 * 90); /*90%*/
+	animation: appSec 2s 1;
+}
+
+.skillBLock:nth-child(3) .column {
+	background: linear-gradient(#24C4E9, #24C4E9, #E40ECF);
+	height: calc(300px / 100 * 70); /*70%*/
+	animation: appThi 2s 1;
+}
+
+.skillBLock:last-child .column {
+	background: linear-gradient(#E40ECF,#24C4E9, #24C4E9);
+	height: calc(315px / 100 * 75); /*75%*/
+	animation: appFou 2s 1;
+}
+
+.column span {
+	transform: rotate(-90deg);
+	color: #fff;
+	font-weight: bold;
+	font-size: 25px;
+	animation: app 3s 1;
+}
+
+.name {
+	text-transform: uppercase;
+	color: #fff;
+	font-weight: bold;
+	font-size: 25px;
+	margin-top: 10px;
+}
+
+@keyframes appFir {
+	0% {
+		height: 0;
+	}
+	20% {
+		height: 0;
+	}
+	100% {
+		height: calc(350px / 100 * 85);
+	}
+}
+
+@keyframes appSec {
+	0% {
+		height: 0;
+	}
+	20% {
+		height: 0;
+	}
+	100% {
+		height: calc(350px / 100 * 90);
+	}
+}
+
+@keyframes appThi {
+	0% {
+		height: 0;
+	}
+	20% {
+		height: 0;
+	}
+	100% {
+		height: calc(350px / 100 * 70);
+	}
+}
+
+@keyframes appFou {
+	0% {
+		height: 0;
+	}
+	20% {
+		height: 0;
+	}
+	100% {
+		height: calc(350px / 100 * 75);
+	}
+}
+
+@keyframes app {
+	0% {
+		opacity: 0;
+	}
+	70% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
