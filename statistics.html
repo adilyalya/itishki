@@ -5,13 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/basics.css">
     <link rel="stylesheet" href="css/statistics.css">
+    <link rel="stylesheet" href="css/header&footer.css">
     <title>Document</title>
 </head>
 <body>
     
     <div class="wrapper">
         <header class="header">
-
+            <div class="bg-header">
+                <h1 class="title-header">The El<span class="it">IT</span>e Club</h1>
+                <nav class="nav">
+                    <ul class="list">
+                        <li class="list-item"><a href="home.html" class="link-list">ГЛАВНАЯ</a></li>
+                        <li class="list-item"><a href="about.html" class="link-list">О НАС</a></li>
+                        <li class="list-item"><a href="media.html" class="link-list">МЕДИА</a></li>
+                        <li class="list-item"><a href="statistics.html" class="link-list">СТАТИСТИКА</a></li>
+                    </ul>
+                </nav>
+            </div>
         </header>
         <main class="main">
             <div class="container">
@@ -26,7 +37,7 @@
                             <div class="statistics-diagram">
                                 <div class="skillBLock">
                                     <div class="column">
-                                        <span>ProGame</span>
+                                        <span>CHJ</span>
                                     </div>
                                     <!-- <span class="name">Html</span> -->
                                 </div>
@@ -44,7 +55,7 @@
                                 </div>
                                 <div class="skillBLock">
                                     <div class="column">
-                                        <span>CHJ</span>
+                                        <span>ProGame</span>
                                     </div>
                                     <!-- <span class="name">Js</span> -->
                             </div>
@@ -57,20 +68,77 @@
             
                             <div class='history-desc'>
                                <ul>
-                                <li>BrainHack - 80%</li>
-                                <li>ProGame -24%</li>
+                                <li>BrainHack - 38%</li>
+                                <li>CHJ -24%</li>
                                 <li>Twinkl - 22%</li>
-                                <li>CHJ - 16%</li>
+                                <li>ProGame - 16%</li>
                                </ul>
                             </div>
                         </div>
                     </div>
                 </div>
+
+
+                <div class="canvas">  
+                    <div class="legend">
+                      <p class="statistics_title">Общая Занятость </p>    
+                      <ul class="caption-list">
+                        <li class="caption-item">работают</li>
+                        <li class="caption-item">не работают</li>
+                        <li class="caption-item">отсутствуют</li>
+                      </ul>
+                    </div>
+                    
+                    <svg class="chart" width="500" height="500" viewBox="0 0 50 50">
+                      <circle class="unit" r="15.9" cx="50%" cy="50%"></circle>
+                      <circle class="unit" r="15.9" cx="50%" cy="50%"></circle>
+                      <circle class="unit" r="15.9" cx="50%" cy="50%"></circle>
+                    </svg>
+                    <div class="canvas-img"><img src="img/crown (2) 4.svg" alt=""></div>
+                  </div>
                 
             </div>
         </main>
         <footer class="footer">
-
+            <div class="bg-footer">
+                <div class="section-footer-one">
+                    <div class="logo">
+                        <img src="img/logo.png" alt="">
+                    </div>
+                    <div class="social-footer">
+                        <img src="img/telegram.png" alt="" class="telegram">
+                        <img src="img/instagram.png" alt="" class="instagram">
+                        <img src="img/phone.png" alt="" class="phone">
+                        <img src="img/whatsup.png" alt="" class="whatsup">
+                    </div>
+                    <div class="nav">
+                        <ul class="list-footer">
+                            <li class="list-item"><a href="home.html" class="link-list">ГЛАВНАЯ</a></li>
+                            <li class="list-item"><a href="about.html" class="link-list">О НАС</a></li>
+                            <li class="list-item"><a href="media.html" class="link-list">МЕДИА</a></li>
+                            <li class="list-item"><a href="statistics.html" class="link-list">СТАТИСТИКА</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="section-footer-two">
+                    <div class="section-footer-two--part-one">
+                        <a href="" class="letter-link"><img src="img/letter.png" alt="" class="letter-one"></a>
+                        <div class="arrow">
+                            <img src="img/arrow.png" alt="">
+                            <div class="text-letter">ПИСЬМО ДЛЯ САМЫХ <br> БЕССТРАШНЫХ</div>
+                        </div>
+                        
+                    </div>
+                    <div class="section-footer-two--part-one">
+                        <a href="" class="letter-link"><img src="img/letter.png" alt="" class="letter-two"></a>
+                        <div class="arrow">
+                            <img src="img/arrow.png" alt="">
+                            <div class="text-letter">БЛАГОДАРНОСТЬ</div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
         </footer>
     </div>
 
