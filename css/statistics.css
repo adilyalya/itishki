@@ -19,9 +19,8 @@
     margin-bottom: 400px;
 }
 .history-title-h2 {
-    font-family: 'Tinos', serif;
     font-size: 40px;
-    font-weight: bold;
+    font-weight: 700;
     width: 444px;
     text-align: center;
     margin-top: 21px;
@@ -36,8 +35,6 @@
     color: #FFF;
     font-size: 40px;
     font-family: Inter;
-    font-style: italic;
-    font-weight: 200;
 }
 .history-img{
     width: 436px;
@@ -55,7 +52,7 @@
 	display: flex;
 	align-items: center;
 	flex-direction: column;
-	width: 50%;
+	width: 56%;
 }
 
 .statistics-diagram {
@@ -64,6 +61,7 @@
 	align-items: center; */
 	width: 100%;
     margin-top: 45px;
+
     
 }
 
@@ -81,7 +79,7 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	width: 50px;
+	width: 70px;
 }
 
 .skillBLock:first-child .column {
