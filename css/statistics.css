@@ -39,14 +39,15 @@
 .history-img{
     width: 436px;
     position: absolute;
-    z-index: 1;
-    margin-left: -570px;
+    z-index: 0;
+    margin-right: 200px;
     margin-top: -75px;
 }
 .section_statistics_girodigram {
 	position: absolute;
 	left: 50%;
 	top: 500px;
+  z-index: 999;
 	transform: translate(-50%, -50%);
 	display: flex;
 	align-items: center;
@@ -237,7 +238,6 @@
   
   .caption-item {
     position: relative;
-  
     margin: 20px 0;
     padding-left: 30px;
     margin-left: -100px;
@@ -318,4 +318,152 @@
     stroke-dasharray: 76 100;
     stroke-dashoffset: -24;
 }
-  
+@media (max-width: 1916px){
+  .wrapper{
+    max-width: 1520px;
+  }
+}
+@media (max-width: 1600px){
+  .wrapper{
+    max-width: 1220px;
+  }
+}
+@media (max-width: 1490px){
+  .wrapper{
+    max-width: 1100px;
+  }
+  .canvas{
+    display: block;
+    margin-top: 650px;
+  }
+  .canvas-img{
+    margin-left: 173px;
+    margin-top: -320px;
+  }
+  .chart{
+    margin-left: 0;
+  }
+  .statistics_title{
+    margin-left: 0;
+  }
+  .legend{
+    margin-left: 110px;
+  }
+  .statistics-diagram{
+    margin-right: 200px;
+  }
+  .history-info{
+    margin-left: -600px;
+    margin-top: -655px;
+  }
+  .section_statistics_girodigram{
+    top: 610px;
+    left: 910px;
+  }
+}
+@media (max-width: 1220px){
+  .wrapper{
+    max-width: 900px;
+  }
+  .canvas{
+    display: block;
+    margin-top: 650px;
+  }
+  .canvas-img{
+    margin-left: 225px;
+    margin-top: -320px;
+  }
+  .chart{
+    margin-left: 50px;
+  }
+  .statistics_title{
+    margin-left: -100px;
+  }
+  .legend{
+    margin-left: 200px;
+  }
+  .statistics-diagram{
+    margin-right: 200px;
+  }
+  .history-info{
+    margin-left: -350px;
+    margin-top: -655px;
+  }
+  .section_statistics_girodigram{
+    top: 610px;
+    left: 675px;
+  }
+}
+@media (max-width: 900px){
+  .wrapper{
+    max-width: 700px;
+  }
+  .canvas{
+    display: block;
+    margin-top: 650px;
+  }
+  .canvas-img{
+    margin-left: 225px;
+    margin-top: -320px;
+  }
+  .chart{
+    margin-left: 50px;
+  }
+  .statistics_title{
+    margin-left: -100px;
+  }
+  .legend{
+    margin-left: 200px;
+  }
+  .statistics-diagram{
+    margin-right: 200px;
+  }
+  .history-info{
+    margin-left: -200px;
+    margin-top: -655px;
+  }
+  .section_statistics_girodigram{
+    top: 680px;
+    left: 510px;
+  }
+  .statistics-sub{
+    margin-top: 100px;
+  }
+}
+@media (max-width: 425px){
+  .wrapper{
+    max-width: 700px;
+  }
+  .canvas{
+    display: block;
+    margin-top: 650px;
+  }
+  .canvas-img{
+    margin-left: 225px;
+    margin-top: -320px;
+  }
+  .chart{
+    margin-left: 50px;
+  }
+  .statistics_title{
+    margin-left: -100px;
+  }
+  .legend{
+    margin-left: 200px;
+  }
+  .statistics-diagram{
+    margin-right: 200px;
+  }
+  .history-info{
+    margin-left: -200px;
+    margin-top: -655px;
+  }
+  .section_statistics_girodigram{
+    top: 680px;
+    left: 510px;
+  }
+  .statistics-sub{
+    margin-top: 100px;
+  }
+}
+
