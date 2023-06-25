@@ -19,19 +19,24 @@
                 <h1 class="title-header">The El<span class="it">IT</span>e Club</h1>
                 <nav class="nav">
                     <input type="checkbox" id="check-menu">
-                    <label for="check-menu"></label>
-                    <div class="burger-lines">
-                        <div class="burger-line first"></div>
-                    <div class="burger-line second"></div>
-                    <div class="burger-line third"></div>
-                    <div class="burger-line fourth"></div>
-                    </div>
+                    <label for="check-menu">
+                        <!-- эти линии должны быть внутри label -->
+                        <!-- <div class="burger-lines"> это удалим -->
+                            <!-- зачем 4 линии -->
+                            <div class="burger-line first"></div>
+                            <div class="burger-line second"></div>
+                            <div class="burger-line third"></div>
+                           <!--  <div class="burger-line fourth"> и это удалим</div> -->
+                        
+                    </label>
+                  
                     <ul class="list">
                         <li class="list-item"><a href="home.html" class="link-list">ГЛАВНАЯ</a></li>
                         <li class="list-item"><a href="about.html" class="link-list">О НАС</a></li>
                         <li class="list-item"><a href="media.html" class="link-list">МЕДИА</a></li>
                         <li class="list-item"><a href="statistics.html" class="link-list">СТАТИСТИКА</a></li>
                     </ul>
+                  
                 </nav>
             </div>
         </header>

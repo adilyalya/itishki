@@ -1,17 +1,21 @@
 /* header */
 .header{
     height: 260px;
+    
 }
 .bg-header{
-    background-image: url(../img/header-bg.png);
+    
+    background:  url(../img/header-bg.png) center / cover no-repeat;
+   /*  background-image: url(../img/header-bg.png);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
+    background-size: cover; */
+    /* display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     padding: 20px;
+    position: relative; */
 }
 .title-header{
     font-family: 'Pathway Extreme', sans-serif;
@@ -20,6 +24,7 @@
     font-size: 98px;
     line-height: 119px;
     color: #FFFFFF;
+    text-align: center;
 }
 .it{
     font-size: 125px;
@@ -29,47 +34,62 @@
     background-clip: text;
 }
 .nav{
-    position: relative;
+    position: relative; 
+    display: flex;
+    
+  
+  
 }
 #check-menu{
     display: none;
 }
 label{
-    display: block;
+   /*  display: block; */
     position: absolute;
-    top: -60px;
-    left: 1267px;
-    width: 100%;
-    height: 100%;
+    top: 15px;
+    right: 100px;
+    
+    width: 35px;
+    height: 15px;
     cursor: pointer;
     z-index: 99;
-}
-.burger-lines{
+    display: flex;
+    flex-direction: column;
     display: none;
-    position: relative;
+    
+}
+/*  .burger-lines{
+    display: none;
+    position: relative; как объединяются в одном relative и absolute
     position: absolute;
     top: -76px;
     right: 60px;
     width: 35px;
     height: 35px;
-}
+}  */
 .burger-line{
+    
     position: absolute;
     width: 35px;
-    height: 2px;
+    height: 3px;
     background-color: #FFFFFF;
 }
-.second,
+.first{
+    top: 0;
+}
+.second{
+    top: 7px;
+}
 .third{
-    top: 12px;
+    top: 14px;
 }
-.fourth{
-    bottom: 8px;
-}
+
 .list{
+    margin: 0 auto;
     margin-top: 10px;
     display: flex;
     gap: 170px;
+    transition: .3s all;/* добавим плавности */
 }
 .list-item{
     list-style-type: none;
@@ -83,7 +103,7 @@ label{
 }
 .link-list:hover{
     color: #99ecff;
-    transition: 0.5s;
+    transition: 0.5s all;
 }
 
 
@@ -130,8 +150,10 @@ label{
         display: block;
         padding: 0;
     }
-    .burger-lines{
+    label{
         display: block;
+        /* margin-right: 0px; */
+        top: -20px;
     }
     
     .title-header{
@@ -153,7 +175,7 @@ label{
         overflow: hidden;
         bottom: 0;
         left: 0;
-        transform: translateY(100%);
+        transform: translateY(100%); 
     }
     .list-item{
         display: block;
